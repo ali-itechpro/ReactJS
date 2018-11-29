@@ -56,7 +56,6 @@ class Account extends Component {
             <div className="text-center">
             <br/>
                 <h1>Welcome to My Account</h1>
-
                 <div className="bg-default text-center border" style={this.styles}>
                 <h2>Your Balance</h2>
                 <h3 className="text-danger">{this.state.alert}</h3>
@@ -65,9 +64,6 @@ class Account extends Component {
                 <button className="btn btn-primary m-2" onClick={this.Deposit}>Deposit 10$</button>
                 <button className="btn btn-danger" onClick={this.Withdraw}>Withdraw -10$</button>
                 </div>
-            
-            
-            
             </div>
         )
     }

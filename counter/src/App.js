@@ -33,17 +33,12 @@ Decreament=()=>{
   render() {
     return (
       <div className="App">
-       
         <h1>COUNTER</h1>
         <h2 className="text-warning">{this.state.count}</h2>
         <button onClick={this.Increament} className="btn btn-primary m-2">Increasement</button>
         <button onClick={this.Decreament} className="btn btn-primary">Decreament</button>
-
       <hr/>
-      
       <Account/>
-      
-
       </div>
     );
   }
