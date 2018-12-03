@@ -60,9 +60,6 @@ class App extends Component {
   }
 
   render() {
-
-
-
     return (
       <div className="App container"><br></br>
         <h1 className="text-primary">Api Fetch</h1>
