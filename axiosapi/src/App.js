@@ -45,7 +45,7 @@ class App extends Component {
               {
                   this.state.items.map((item)=>{
                   
-                  return <tr key={item.productid}>
+                  return <tr key={item.productid}> 
                   <td>{item.product_name}</td>
                   <td>{item.TCPColor}</td>
                   <td>{item.min_list_price}</td>
