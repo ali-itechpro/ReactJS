@@ -44,7 +44,6 @@ class App extends Component {
               <tbody>
               {
                   this.state.items.map((item)=>{
-                  
                   return <tr key={item.productid}> 
                   <td>{item.product_name}</td>
                   <td>{item.TCPColor}</td>
